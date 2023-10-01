@@ -1,0 +1,113 @@
+html {
+    background: url(pole.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header {
+    
+    left:5px;
+    width: 600px;
+    height: 350px;
+    background-image: url(1234.jpg);
+    background-size: cover;
+    border: 3px solid #000; 
+}
+h1{
+    color: #FF0000; 
+    font-family: 'Anton', sans-serif;
+    margin-left: 45px; 
+    top: 150px;
+}
+.descript{
+    width: 300px; 
+    color: #6495ED; 
+    font-style: italic; 
+    margin: 10px 0 0 10px; 
+    font-size: 15px; 
+}
+#mb {
+    margin-left:620px;
+    margin-top: -3px;
+    width: 600px;
+    height: 350px;
+    background-image: url(mb.jpg);
+    background-size: cover;
+    border: 3px solid #000;  
+}
+#cr {
+    margin-top: -3px;
+    margin-left:620px;
+    width: 600px;
+    height: 350px;
+    background-image: url(cr7.jpg);
+    background-size: cover;
+    border: 3px solid #000;  
+}
+#header1, #header2, #header3, #col1, #col2, #col3 {
+    font-family: Verdana, Arial, sans-serif; /* Рубленый шрифт */
+    font-weight: bold; /* Жирное начертание текста заголовка */
+    font-size: 80%; /* Размер шрифта */
+    color: white; /* Цвет текста заголовка */
+    width: 595px; /* Ширина колонок */
+    border: 1px solid black; /* Рамка вокруг слоя */
+    padding: 5px; /* Поля вокруг текста */
+    /* позиционируем */
+    position: absolute ; /* Абсолютное позиционируем */
+    left:5px;
+    top: 440px; /* Расстояние от верхнего края */
+    }
+    /* для колонок */
+    #col1, #col2, #col3 {
+    font-family: "Times New Roman", Times, serif; /* Шрифт с засечками */
+    font-size: 120%; /* Размер шрифта */
+    font-weight: normal; /* Нормальное начертание */
+    color: black; /* Цвет текста */
+    top: 465px; /* Расстояние от верхнего края */
+    }
+    /* Расстояние от левого края отдельно каждого слоя */
+    #header1 { left: 8px; }
+    #header2 { left: 631px; } /* 20 + 250 + 5 + 5 */
+    #header3 { left: 1254px; } /* 20 + 250 + 250 + 5 + 5 + 5 + 5 */
+    #col1 { left: 8px; }
+    #col2 { left: 631px; }
+    #col3 { left: 1254px; }
+    /* Цвет фона каждого слоя */
+    #header1 { background: #B38541; }
+    #header2 { background: #008159; }
+    #header3 { background: #006077; }
+    #col1 { background: #EBE0C5; }
+    #col2 { background: #BBE1C4; }
+    #col3 { background: #ADD0D9; }
+    footer {
+        
+            position:fixed;
+            left:500px;
+            bottom:0px;
+            height:30px;
+            width:100%;
+         
+        
+      }
+#footer {
+    margin-top: 850px;
+    background-image: url(footer.jpg);
+    position:relative;
+    height: 100px;
+    font-size: x-large;
+    color: #FFFF00;
+
+}
+.textfooter {
+    margin-left: 20px;
+    
+}
+.logovk {
+    position: absolute;
+    margin-top: -40px;
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
+}
